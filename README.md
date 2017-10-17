@@ -23,3 +23,12 @@ int main(int argc,char* argv[])
  LOG_WARNING
  LOG_SYSTEM
  LOG_ERROR //Not currently supported
+ 
+ 
+5. config
+#define LOG_FILE            ("/logMsg.log") //log file path
+#define LOG_FILE_BAK        ("/logMsg.log.bak")//back up file 
+#define FILE_NAME_LEN       (32) //file name len
+#define FILE_LINE_LEN       (5) // file line number len
+
+#define LOG_SIZE            (1024*1024*30) //30M file size
